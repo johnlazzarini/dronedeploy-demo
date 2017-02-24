@@ -1,11 +1,11 @@
 #DroneDeploy
 ##John Lazzarini
 
-I've never used Python for a personal project before, so step one for me is going to be relearning the basics.  I've signed up for a Treehouse account and will be completing one course per day until I'm able to manage it on my own.
+I'm going to take a quick refresher on web development fundamentals before I take on this project.  I want it to meet industry standards, so I've signed up for a Treehouse account to relearn the ropes.
 
 ###Plan of Attack
 
-####1) Learn Python
+####1) Relearn some web development fundamentals.
 ####2) Consider a few approaches to the spec
 ####3) Determine the available tools that can help with some of these approaches
 ####4) Hook it all up
