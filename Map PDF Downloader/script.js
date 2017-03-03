@@ -22,6 +22,7 @@ var download = document.querySelector('#pdf');
 var img = new Image();
 img.onload = function() {
     context.drawImage(img, 0, 0);
+	//here, I was planning on iterating through the tiles and adding their images to the canvas
 	
 };
 img.src = 'https://public-tiles.dronedeploy.com/1488056887_JLAZZARIOPENPIPELINE_ortho_jlp/17/30310/51503.png?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wdWJsaWMtdGlsZXMuZHJvbmVkZXBsb3kuY29tLzE0ODgwNTY4ODdfSkxBWlpBUklPUEVOUElQRUxJTkVfb3J0aG9famxwLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE0OTA2NzU4Mzh9fX1dfQ__&Signature=Greb-tuVhtUJlAdk6ZbfZiwDbDoIJAHJkaGANcI36XZjQwl-kjc2JPz9JNx4aOuvNHdDRw1idEePIHw79I7dhJUQ5CmRyAWoy3KwTbKQ9W8e63v6d1TQ2aTOUA~N0grPJRuybsbAptFIGaw0QR0KDN1dGGE2eUuYBeyipcllIJ9oeCBGhn9bKcZWgn1AK~~8pweqLEiW2K8d0p6X-BBNTqMA81XqI4pBSq0ssEWVOIRPacxo4OfPuiXzgunlE5eRkNFPn0LvAi8pznkOQuWY35CNMhfMU6jOJbEnnMSikso2DOK8PcTKJdAtWrjal2QeaPnKlL2uYoGLc2~S24hyBw__&Key-Pair-Id=APKAJXGC45PGQXCMCXSA';
